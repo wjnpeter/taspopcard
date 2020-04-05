@@ -1,0 +1,118 @@
+/*
+Theme Name:     TASCard
+Author:         Peter
+Template:       storefront
+Version:        0.1.0
+*/
+
+
+.site-title-1st {
+	color: #ff7272;
+}
+.site-title-2nd {
+	color: #ffb385;
+}
+
+
+/* Product Search */
+.site-search .widget_product_search form::before {
+	pointer-events: none;
+}
+
+.site-search .widget_product_search form input[type=search] {
+	width: 0;
+	-webkit-transition: width 0.4s ease-in-out;
+  	transition: width 0.4s ease-in-out;
+  	background-color: white;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.site-search .widget_product_search form input[type=search]:focus {
+	width: 100%;
+	cursor: text;
+}
+
+
+/* Navigation */
+.woocommerce-active .site-header .main-navigation {
+	width: 100%;
+	text-align: center;
+}
+
+.primary-navigation .nav-menu>.menu-item {
+	text-align: center;
+    width: 7rem;
+}
+
+.primary-navigation .nav-menu>.menu-item#menu-item-94 {
+	width: 10rem;
+}
+
+.mainnav-shop-btn {
+	background-color: #fae7cb;
+    color: #ffb385;
+    border-radius: 7px;
+    
+}
+.mainnav-shop-btn:hover {
+	background-color: #ffb385;
+	color: #fae7cb;
+}
+
+.wc-block-grid__product-onsale, .onsale {
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+.wp-block-product-top-rated .wc-block-grid__product {
+	border-radius: 2px;
+    border: 8px solid #fae7cb ;
+    max-width: 24.5% !important;
+    margin-left: auto;
+}
+}
+
+.add_to_cart_button {
+	background-color: #ffd31d;
+    border-radius: 5px !important;
+}
+
+.site-footer {
+	background-color: #fae7cb;
+    color: #6d6d6d;
+    padding: 0;
+}
+
+#newsletterwidgetminimal-2 {
+	width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#newsletterwidgetminimal-2 .widget-title {
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 8px dotted #ffd31d;
+    padding-bottom: 2px;
+}
+
+.footer-widgets {
+	padding-bottom: 3px;
+}
+
+.site-info {
+	text-align: center;
+}
+
+.site-footer a:not(.button):not(.components-button) {
+	text-decoration: none;
+}
+
+.tnp-email {
+	margin-bottom: 7px;
+}
+
